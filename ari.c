@@ -7,8 +7,8 @@
 
 int main(){
 string n;
-int i,formula;
-float letter=0.0,word=0.0,sentance=0.0;
+int i;
+float formula,letter=0.0,word=0.0,sentance=0.0;
 printf("enter");
 scanf("%s",&n);
   for(i=0;i<strlen(n);i++){

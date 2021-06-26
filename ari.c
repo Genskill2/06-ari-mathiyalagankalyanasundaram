@@ -7,23 +7,19 @@
 
 int main(){
 string n;
-int i,letter=0,word=0,sentance=0,formula;
+int i,formula;
+float letter=0.0,word=0.0,sentance=0.0;
 printf("enter");
 scanf("%s",&n);
   for(i=0;i<strlen(n);i++){
       if(isalnum(n[i])==1){
       letter=letter+1;}
-      }
-    
-  for(i=0;i<strlen(n);i++){
-      if(n[i]==' '){
+       if(n[i]==' '){
       word=word+1;}
-      }
-    
-  for(i=0;i<strlen(n);i++){
-      if(n[i]=='?'||n[i]=='.'||n[i]==','){
+       if(n[i]=='?'||n[i]=='.'||n[i]==','){
          sentance=sentance+1;}
-      }    
+      }
+   
 
     formula=4.71*(letter/word)+0.5*(word/sentance)-21.43+1;
 

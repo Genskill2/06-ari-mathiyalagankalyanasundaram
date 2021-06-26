@@ -15,7 +15,7 @@ float letter=0.0,word=0.0,sentance=0.0;
       letter=letter+1;}
        if(n[i]==' '){
       word=word+1;}
-       if(n[i]=='?'||n[i]=='.'||n[i]==','){
+       if(n[i]=='?'||n[i]=='.'||n[i]=='!'){
          sentance=sentance+1;}
       }
    
@@ -24,19 +24,33 @@ float letter=0.0,word=0.0,sentance=0.0;
 
     switch (formula){
         case 1: printf("kindergarden");
+            break;
         case 2: printf("first or second class");
+            break;
         case 3: printf("third grade");
+            break;
         case 4: printf("fourth grade");
+            break;
         case 5: printf("fiveth grade");
+            break;
         case 6: printf("sixth grade");
+            break;
         case 7: printf("seventh grade");
+            break;
         case 8: printf("eighth grade");
+            break;
         case 9: printf("ningth grade");
+            break;
         case 10: printf("tenth grade");
+            break;
         case 11: printf("eleventh grade");
+            break;
         case 12: printf("twelth grade");
+            break;
         case 13: printf("college student");
+            break;
         case 14: printf("professor"); 
+            break;
     }
 
 

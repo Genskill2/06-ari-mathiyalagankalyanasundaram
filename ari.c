@@ -20,34 +20,21 @@ string ari(string n){
   formula=4.71*(letter/word)+0.5*(word/sentance)-21.43+1;
     
   switch (formula){
-    case 1: printf("Kindergarten");
-    break;
-    case 2: printf("First/Second Grade");
-    break;
-    case 3: printf("Third Grade");
-    break;
-    case 4: printf("Fourth Grade");
-    break;
-    case 5: printf("Fifth Grade");
-    break;
-    case 6: printf("Sixth Grade");
-    break;
-    case 7: printf("Seventh Grade");
-    break;
-    case 8: printf("Eighth Grade");
-    break;
-    case 9: printf("Ninth Grade");
-    break;
-    case 10: printf("Tenth Grade");
-     break;
-     case 11: printf("Eleventh Grade");
-     break;
-     case 12: printf("Twelfth grade");
-     break;
-     case 13: printf("College student");
-     break;
-     case 14: printf("Professor"); 
-     break;
+    default :return "-1";
+    case 1: return "Kindergarten";
+    case 2: return "First/Second Grade";
+    case 3: return "Third Grade";
+    case 4: return "Fourth Grade";
+    case 5: return "Fifth Grade";
+    case 6: return "Sixth Grade";
+    case 7: return "Seventh Grade";
+    case 8:return "Eighth Grade";
+    case 9:return"Ninth Grade";
+    case 10:return"Tenth Grade";
+    case 11:return"Eleventh Grade";
+    case 12:return"Twelfth grade";
+    case 13:return"College student";
+    case 14: return"Professor"; 
     }
 
 }

@@ -5,13 +5,13 @@
 #include <ctype.h>
 
 
+
 int main(){
-string n;
 int i,formula;
 float letter=0.0,word=0.0,sentance=0.0;
  string n="The town was large enough to support three inns, and all their common rooms were rife with rumors. Arianne sent her men into each of them, to hear what they might hear. In the Broken Shield, Daemon Sand was told that the great septry on the Holf of Men had been burned and looted by raiders from the sea, and a hundred young novices from the motherhouse on Maiden Isle carried off into slavery.";
   for(i=0;i<strlen(n);i++){
-      if(isalnum(n[i])==1){
+      if(isalnum(n[i])){
       letter=letter+1;}
        if(n[i]==' '){
       word=word+1;}

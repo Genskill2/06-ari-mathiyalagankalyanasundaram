@@ -7,7 +7,7 @@
 
 string ari(string n){
 
-  int i,formula;
+  int i,formula=0;
   float letter=0.0,word=0.0,sentance=0.0;
   for(i=0;i<strlen(n);i++){
       if(isalnum(n[i])){
